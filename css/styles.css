@@ -273,13 +273,15 @@ html {
     gap: 40px;
 }
 
-.contact-icons img {
+.contact-icons img, 
+.contact-icons svg {
     width: 38px;
     height: 38px;
     transition: .3s;
 }
 
-.contact-icons img:hover {
+.contact-icons img:hover, 
+.contact-icons svg:hover {
     transform: scale(1.25) rotate(6deg);
 }
 
@@ -299,7 +301,8 @@ html {
     box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
 }
 
-.whatsapp-float img {
+.whatsapp-float img, 
+.whatsapp-float svg {
     width: 28px;
     height: 28px;
 }
@@ -355,7 +358,8 @@ html {
     gap: 10px;
 }
 
-.footer-logo img {
+.footer-logo img, 
+.footer-logo svg {
     width: 36px;
     height: 36px;
 }
@@ -384,13 +388,15 @@ html {
     margin-top: 10px;
 }
 
-.footer-socials img {
+.footer-socials img, 
+.footer-socials svg {
     width: 28px;
     height: 28px;
     transition: .3s;
 }
 
-.footer-socials img:hover {
+.footer-socials img:hover, 
+.footer-socials svg:hover {
     transform: scale(1.2);
 }
 
